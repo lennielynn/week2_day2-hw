@@ -5,12 +5,12 @@
 
 num_list = [1,11,14,5,8,9]
 
-# for num in num_list.copy():
-#    if num < 10:
-#      continue
-#    else:
-#      num_list.remove(num)
+for num in num_list.copy():
+   if num < 10:
+     continue
+   else:
+     num_list.remove(num)
 
-# print(num_list)
+print(num_list)
 
-output = [n for n in num_list if n < 10]
+# output = [n for n in num_list if n < 10] 
